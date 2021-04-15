@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- мета теги -->
+    <title>Проверка пароля на безопасность паролей</title>
+    <meta name="title" content="Проверка пароля на безопасность паролей">
+    <meta name="description" content="Здесь вы можете проверить свой пароль на надежность по 6 признакам">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Проверка пароля на безопасность паролей">
+    <meta property="og:description" content="Здесь вы можете проверить свой пароль на надежность по 6 признакам">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Проверка пароля на безопасность паролей">
+    <meta property="twitter:description" content="Здесь вы можете проверить свой пароль на надежность по 6 признакам">
+    <!-- мета теги -->
+
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main></main>
+    <div class="main__password-validator-block">
+        <h1 class="password-validator-block__title">Проверьте свой пароль на надежность.</h1>
+        <input placeholder="Введите свой пароль..." class="password-validator-block__input" type="text">
+        <button disabled class="password-validator-block__check-password">Проверить!</button>
+        <h2 class="password-validator-block__criteria">Критерии пароля:</h2>
+        <ol class="password-validator-block__ol">
+            <li>Пароль должен быть длинным, в идеале начиная от 16 символов: <span id="length">✔</span> </li>
+            <li>Содержит строчную букву <span id="LC">✔</span></li>
+            <li>Содержит заглавную букву <span id="UC">✔</span></li>
+            <li>Содержит число <span id="HN">✔</span></li>
+        </ol>
+        <h2 class="password-validator-block__errors">Рекомендации:</h2>
+    </div>
+</body>
+
+</html>
